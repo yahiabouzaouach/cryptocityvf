@@ -1,0 +1,31 @@
+
+.popup {
+    /* Mettez ici les styles CSS du formulaire pop-up */
+    /* par exemple : */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .table-container {
+    /* Mettez ici les styles CSS du conteneur du tableau */
+    /* par exemple : */
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .table-container.popup-visible {
+    /* Style pour le fond du tableau lorsque le formulaire pop-up est visible */
+    /* par exemple : */
+    background-color: rgba(0, 0, 0, 0.2);
+    pointer-events: none; /* Cela permet de cliquer à travers le fond semi-transparent */
+  }
+  
